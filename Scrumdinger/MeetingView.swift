@@ -10,12 +10,11 @@ import SwiftUI
 struct MeetingView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ProgressView(value: 5, total: 15)
+            HStack{
+                Text("Seconds Elapsed")
+            }
         }
-        .padding()
     }
 }
 
