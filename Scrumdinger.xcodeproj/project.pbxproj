@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		83A4D501309378AF0092187B /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 83A4D500309378AF0092187B /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8318D7F630910D1A009A1757 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -22,6 +26,7 @@
 		8318D7F330910D1A009A1757 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				83A4D501309378AF0092187B /* ThemeKit in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 				8318D7F830910D1A009A1757 /* Scrumdinger */,
 			);
 			name = Scrumdinger;
+			packageProductDependencies = (
+				83A4D500309378AF0092187B /* ThemeKit */,
+			);
 			productName = Scrumdinger;
 			productReference = 8318D7F630910D1A009A1757 /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
@@ -72,7 +80,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2710;
-				LastUpgradeCheck = 2710;
+				LastUpgradeCheck = 2720;
 				TargetAttributes = {
 					8318D7F530910D1A009A1757 = {
 						CreatedOnToolsVersion = 27.1;
@@ -88,6 +96,9 @@
 			);
 			mainGroup = 8318D7ED30910D1A009A1757;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				83A4D4FF309378AF0092187B /* XCLocalSwiftPackageReference "ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8318D7F730910D1A009A1757 /* Products */;
 			projectDirPath = "";
@@ -174,6 +185,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -231,6 +243,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -320,6 +333,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		83A4D4FF309378AF0092187B /* XCLocalSwiftPackageReference "ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83A4D500309378AF0092187B /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8318D7EE30910D1A009A1757 /* Project object */;
 	validationLevel = 1;
